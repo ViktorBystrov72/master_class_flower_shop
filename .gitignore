@@ -1,0 +1,8 @@
+pass.txt
+site/node_modules/
+site/data/
+site/.env
+site/.env.*
+site/.layero/
+site/coverage/
+.DS_Store

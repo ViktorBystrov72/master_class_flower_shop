@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Аленький цветочек — букеты с доставкой по Тюмени</title>
+  <meta name="description" content="Букеты для больших чувств и маленьких поводов. Доставка по всей Тюмени: бесплатно от 2 000 ₽, иначе 200 ₽. Оплата при получении.">
+  <meta name="theme-color" content="#263b32"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css"><script src="/shop.js" type="module"></script>
+  <link rel="preload" href="/images/hero.webp" as="image">
+</head>
+<body>
+<a class="skip-link" href="#catalog">Перейти к букетам</a>
+<div class="announcement">Доставка по Тюмени <span>·</span> Бесплатно от 2 000 ₽</div>
+<header class="site-header">
+  <nav class="nav-left" aria-label="Основная навигация"><a href="#catalog">Букеты</a><a href="#delivery">Доставка и оплата</a></nav>
+  <a class="brand" href="/" aria-label="Аленький цветочек — главная"><img src="/favicon.svg" width="35" height="35" alt=""><span>Аленький цветочек<small>ЦВЕТОЧНАЯ МАСТЕРСКАЯ</small></span></a>
+  <div class="nav-right"><span class="city"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Тюмень</span><button class="cart-trigger" id="open-cart" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg><span class="cart-word">Корзина</span><span id="cart-count" class="cart-count">0</span></button></div>
+</header>
+<main>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow"><span class="tiny-flower">✳</span> ЦВЕТЫ ДЛЯ ВАШИХ ИСТОРИЙ</p><h1 id="hero-title">Самое важное<br>можно сказать<br><em>цветами.</em></h1><p class="hero-description">Для больших чувств и маленьких поводов.<br>Собираем букеты с душой и доставляем<br class="desktop-break"> тем, кто вам дорог.</p><a class="button primary" href="#catalog">Выбрать букет <span aria-hidden="true">↗</span></a><p class="hero-footnote">Тюмень <span>·</span> Оплата при получении</p></div>
+    <div class="hero-image"><img src="/images/hero.webp" alt="Нежный букет персиковых и розовых цветов в стеклянной вазе" width="1536" height="1024" fetchpriority="high"><div class="photo-note">СОБРАНО С ТЕПЛОМ <span>ДЛЯ ОСОБЕННЫХ ЛЮДЕЙ</span></div></div>
+  </section>
+  <div class="benefits"><p><span class="benefit-icon">✿</span><span>Каждый букет — с вниманием<small>к цветам, деталям и вашему поводу</small></span></p><p><span class="benefit-icon">↗</span><span>По всей Тюмени<small>доставка 200 ₽, от 2 000 ₽ — бесплатно</small></span></p><p><span class="benefit-icon">♡</span><span>Сначала цветы — потом оплата<small>оплачивайте заказ при получении</small></span></p></div>
+  <section id="catalog" class="catalog section" aria-labelledby="catalog-title">
+    <div class="section-heading"><div><p class="eyebrow">НАШИ БУКЕТЫ</p><h2 id="catalog-title">Какое у вас сегодня <em>чувство?</em></h2></div><p>Нежность, радость или тихое «спасибо».<br>Для каждого найдётся свой букет.</p></div>
+    <div class="catalog-toolbar"><div class="filters" id="filters" role="group" aria-label="Категории букетов"></div><span id="product-count" class="muted"></span></div>
+    <div id="catalog-error" class="error" role="alert" hidden></div>
+    <div class="product-grid" id="product-grid" aria-live="polite"><p class="loading">Подбираем для вас цветы…</p></div>
+    <p class="catalog-note">Каждый цветок немного особенный. Оттенки и раскрытие бутонов могут отличаться от фотографии.</p>
+  </section>
+  <section id="story" class="story section"><div class="story-flower" aria-hidden="true">✳</div><p class="eyebrow">АЛЕНЬКИЙ ЦВЕТОЧЕК</p><h2>Маленький жест.<br><em>Большое чувство.</em></h2><p>Мы верим, что для цветов не нужен особенный день.<br>Иногда достаточно вспомнить о ком-то.<br>Или порадовать себя — просто так.</p><a class="text-link" href="#catalog">Найти свой букет <span aria-hidden="true">↗</span></a></section>
+  <section id="delivery" class="delivery section" aria-labelledby="delivery-title"><div><p class="eyebrow">ПРОСТО И С ЗАБОТОЙ</p><h2 id="delivery-title">Вы выбираете цветы.<br><em>Мы доставляем чувства.</em></h2><p class="muted">Доставляем по всему городу Тюмень.<br>Удобное время согласуем после оформления заказа.</p></div><div class="delivery-steps"><article><span>01</span><div><h3>Найдите тот самый букет</h3><p>Добавьте его в корзину и оставьте контакты<br class="desktop-break"> и адрес получателя в Тюмени.</p></div></article><article><span>02</span><div><h3>Доставим по всему городу</h3><p>Доставка — 200 ₽. При сумме букетов<br class="desktop-break"> от 2 000 ₽ — бесплатно.</p></div></article><article><span>03</span><div><h3>Оплатите при получении</h3><p>Предоплата не нужна. Оплатите букет и доставку<br class="desktop-break"> при получении заказа.</p></div></article></div></section>
+</main>
+<footer class="site-footer"><a class="brand" href="/"><img src="/favicon.svg" width="32" height="32" alt=""><span>Аленький цветочек<small>ДЛЯ ТЕХ, КТО ВАМ ДОРОГ</small></span></a><div><p>Цветочная мастерская · Тюмень</p><a href="/privacy.html">Обработка персональных данных</a></div><div class="footer-links"><a href="#catalog">Выбрать букет ↗</a><a href="/admin">Кабинет владельца</a><small>© <span id="year"></span> Аленький цветочек</small></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title"><div class="dialog-shell"><div class="toast" id="cart-toast" role="status" aria-live="polite" hidden></div><div class="dialog-heading"><div><p class="eyebrow">ВАШ ВЫБОР</p><h2 id="cart-title">Корзина <em id="drawer-count"></em></h2></div><button class="icon-button" data-close aria-label="Закрыть корзину">×</button></div><div id="cart-lines"></div><div id="cart-summary"></div><form id="checkout-form" hidden><h3>Кому доставить радость?</h3><div class="form-grid"><label>Ваше имя<input name="name" required minlength="2" maxlength="80" autocomplete="name" placeholder="Как к вам обращаться"></label><label>Телефон<input name="phone" type="tel" required maxlength="24" autocomplete="tel" placeholder="+7 (999) 123-45-67"></label></div><label>Адрес доставки в Тюмени<input name="address" required minlength="5" maxlength="240" autocomplete="street-address" placeholder="Улица, дом, квартира или офис"></label><div class="form-grid"><label>Желаемая дата<input name="deliveryDate" id="delivery-date" type="date" required></label><label>Удобное время<select name="deliveryTime"><option value="agree">Согласовать по телефону</option><option value="morning">Утро</option><option value="afternoon">День</option><option value="evening">Вечер</option></select></label></div><label>Комментарий <span class="muted">· необязательно</span><textarea name="comment" rows="2" maxlength="1000" placeholder="Пожелания к букету или детали доставки"></textarea></label><label class="checkbox"><input name="consent" type="checkbox" required><span>Согласен на <a href="/privacy.html" target="_blank" rel="noopener">обработку контактов</a> для выполнения заказа</span></label><div class="error" id="checkout-error" role="alert" hidden></div><button class="button primary full" id="submit-order" type="submit">Оформить заказ <span aria-hidden="true">↗</span></button><p class="form-note">Оплата при получении. Время доставки подтвердим по телефону.</p></form><div id="order-success" hidden></div></div></dialog>
+</body></html>

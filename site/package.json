@@ -1,0 +1,14 @@
+{
+  "name": "alenkiy-tsvetochek",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js",
+    "build": "node scripts/check.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js"
+  },
+  "dependencies": { "express": "^5.1.0" }
+}
